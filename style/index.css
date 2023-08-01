@@ -2,14 +2,14 @@
 @import url("https://woomy.be/style/schemes/light.css") (prefers-color-scheme: light);
 
 @font-face {
-  font-family: "Iosevka";
-  src: url(../fonts/Iosevka\ Bold\ Nerd\ Font\ Complete.ttf);
+  font-family: 'Iosevka';
+  src: url(../fonts/iosevka-regular.woff2) format('woff2');
 }
 
 body, p, span {
   background-color: var(--background);
   color: var(--onBackground);
-  font-family: "Iosevka", monospace;
+  font-family: "Iosevka", 'Material Symbols Outlined', monospace;
   text-align: center;
 }
 
@@ -41,6 +41,10 @@ input {
 
 a {
   color: var(--secondary);
+}
+
+a span {
+  font-size: inherit;
 }
 
 .center {
