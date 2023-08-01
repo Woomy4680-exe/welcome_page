@@ -6,52 +6,41 @@
   src: url(../fonts/Iosevka\ Bold\ Nerd\ Font\ Complete.ttf);
 }
 
-* {
-  font-family: Iosevka;
+body, p, span {
+  background-color: var(--background);
+  color: var(--onBackground);
+  font-family: "Iosevka", monospace;
   text-align: center;
-  align-self: center;
-}
-
-body {
-  background-color: #56595b;
-  display: block;
-  margin: 8px;
-}
-
-h1 {
-  color: whitesmoke;
 }
 
 form {
-  background-color: #bd9aff;
-  width: 55%;
+  background-color: var(--primary);
+  color: var(--onPrimary);
+  width: 75%;
   height: 44px;
-  border-radius: 5px;
+  border-radius: 8px;
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 10px;
-  margin: 40px;
-  box-shadow: 0 4px 8px 0 #4a4a4a, 0 6px 20px 0 #4a4a4a;
+  margin: 30px;
+  border: 2px solid var(--outline);
+}
+
+::placeholder {
+  color: var(--onPrimary);
 }
 
 input {
   all: unset;
-  font: 18px;
-  color: #000000;
-  caret-color: #4a4a4a;
+  color: var(--onPrimary); 
+  caret-color: var(--onPrimary);
   height: 100%;
   width: 100%;
 }
 
-::placeholder {
-  color: #ffffff;
-  opacity: 0.7;
-}
-
 a {
-  color: #ff837d;
-  padding-top: 10px;
+  color: var(--secondary);
 }
 
 .center {
