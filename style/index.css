@@ -1,3 +1,6 @@
+@import url("https://woomy.be/style/schemes/dark.css");
+@import url("https://woomy.be/style/schemes/light.css") (prefers-color-scheme: light);
+
 @font-face {
   font-family: "Iosevka";
   src: url(../fonts/Iosevka\ Bold\ Nerd\ Font\ Complete.ttf);
